@@ -1,0 +1,8 @@
+#no of rec in circle june 18
+r=int(input())
+c=0
+for i in range(1,2*r):
+  for j in range(1,2*r):
+    if(i**2+j**2<=4*r*r):
+      c+=1
+print(c)
